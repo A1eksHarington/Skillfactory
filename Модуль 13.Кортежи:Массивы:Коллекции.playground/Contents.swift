@@ -62,7 +62,7 @@ numbers2[2] // 3
 //dayOfTheWeek.insert("Friday", at: 2)
 
 
-
+//
 var fruits: [String] = ["apple", "nectarine", "pear", "kiwi", "pear", "pineapple"]
 //fruits.removeLast(2)
 fruits.dropLast()

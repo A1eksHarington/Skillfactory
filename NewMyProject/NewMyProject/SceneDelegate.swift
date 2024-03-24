@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  MyNewProject
+//  NewMyProject
 //
-//  Created by Александр Харитонов on 23.03.2024.
+//  Created by Александр Харитонов on 24.03.2024.
 //
 
 import UIKit
