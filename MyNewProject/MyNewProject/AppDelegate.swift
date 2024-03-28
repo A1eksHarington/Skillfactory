@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  NewMyProject
+//  MyNewProject
 //
-//  Created by Александр Харитонов on 24.03.2024.
+//  Created by Александр Харитонов on 28.03.2024.
 //
 
 import UIKit
