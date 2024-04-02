@@ -1,4 +1,12 @@
+//
+//  ViewController.swift
+//  MyCalculator
+//
+//  Created by Александр Харитонов on 28.03.2024.
+//
+
 import UIKit
+
 class ViewController: UIViewController {
     
     var numberFromScreen:Double = 0;
@@ -43,13 +51,10 @@ class ViewController: UIViewController {
             else if sender.tag == 17{  // Проценты
                 result.text = String(firstNum / 100);
             }
-            else if sender.tag == 18{  // Дробные числа
-                result.text = String(".");
-            }
-            
             operation = sender.tag
             mathSign = true;
         }
+       
         else if sender.tag == 15 { //Посчитать
             if operation == 11{
                 result.text = String(firstNum / numberFromScreen)

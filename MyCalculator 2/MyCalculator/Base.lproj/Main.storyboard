@@ -36,7 +36,7 @@
                                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ymS-JP-K6O"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6G-W7-Ho6">
+                                            <button opaque="NO" tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6G-W7-Ho6">
                                                 <rect key="frame" x="91.333333333333343" y="0.0" width="87.333333333333343" height="119.66666666666667"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -46,6 +46,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QHR-Gg-qWM"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHg-IP-x0R">
                                                 <rect key="frame" x="182.66666666666666" y="0.0" width="86.999999999999972" height="119.66666666666667"/>
@@ -57,6 +60,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xwr-FM-0NB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Cl-hQ-Mbq">
                                                 <rect key="frame" x="273.66666666666669" y="0.0" width="87.333333333333314" height="119.66666666666667"/>
@@ -273,6 +279,9 @@
                                                         <buttonConfiguration key="configuration" style="filled" title=",">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YcC-Ic-J8W"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Po7-NC-Sjs">
                                                         <rect key="frame" x="91.000000000000028" y="0.0" width="87.333333333333343" height="119.66666666666667"/>

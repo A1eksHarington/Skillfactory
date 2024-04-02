@@ -1,9 +1,17 @@
+//
+//  ViewController.swift
+//  MyCalculator
+//
+//  Created by Александр Харитонов on 28.03.2024.
+//
+
 import UIKit
+
 class ViewController: UIViewController {
     
     var numberFromScreen:Double = 0;
-    var firstNum:Double = 0;
-    var operation:Int = 0;
+    var firstNum:Double = 0.0;
+    var operation:Double = 0;
     var mathSign:Bool = false;
     @IBOutlet weak var result: UILabel!
     
@@ -43,11 +51,9 @@ class ViewController: UIViewController {
             else if sender.tag == 17{  // Проценты
                 result.text = String(firstNum / 100);
             }
-            else if sender.tag == 18{  // Дробные числа
-                result.text = String(".");
-            }
-            
-            operation = sender.tag
+          
+
+            operation = Double(sender.tag)
             mathSign = true;
         }
         else if sender.tag == 15 { //Посчитать
@@ -63,8 +69,7 @@ class ViewController: UIViewController {
             else if operation == 14 {
                 result.text = String(firstNum + numberFromScreen)
             }
-            
-        
+         
         }
         else if sender.tag == 10 {
             result.text = ""
@@ -74,5 +79,3 @@ class ViewController: UIViewController {
         }
     }
 }
-
-

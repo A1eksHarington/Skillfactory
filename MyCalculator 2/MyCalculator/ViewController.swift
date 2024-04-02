@@ -45,6 +45,15 @@ class ViewController: UIViewController {
             else if sender.tag == 14{  // Сложение
                 result.text = "+";
             }
+            else if sender.tag == 16{  // Отрцательное число
+                result.text = "+/-";
+            }
+            else if sender.tag == 17{  // Проценты
+                result.text = "%";
+            }
+            else if sender.tag == 18{  // Дробное число
+                result.text = ",";
+            }
             operation = sender.tag
             mathSign = true;
         }
@@ -59,6 +68,18 @@ class ViewController: UIViewController {
                 result.text = String(firstNum - numberFromScreen)
             }
             else if operation == 14 {
+                result.text = String(firstNum + numberFromScreen)
+            }
+            else if operation == 14 {
+                result.text = String(-firstNum )
+            }
+            else if operation == 16 {
+                result.text = String(firstNum / 100)
+            }
+            else if operation == 17 {
+                result.text = String(firstNum + numberFromScreen)
+            }
+            else if operation == 18 {
                 result.text = String(firstNum + numberFromScreen)
             }
         }

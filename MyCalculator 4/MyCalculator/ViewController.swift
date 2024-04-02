@@ -1,4 +1,12 @@
+//
+//  ViewController.swift
+//  MyCalculator
+//
+//  Created by Александр Харитонов on 28.03.2024.
+//
+
 import UIKit
+
 class ViewController: UIViewController {
     
     var numberFromScreen:Double = 0;
@@ -37,16 +45,6 @@ class ViewController: UIViewController {
             else if sender.tag == 14{  // Сложение
                 result.text = "+";
             }
-            else if sender.tag == 16{  // Отрцательное число
-                result.text = String(-firstNum);
-            }
-            else if sender.tag == 17{  // Проценты
-                result.text = String(firstNum / 100);
-            }
-            else if sender.tag == 18{  // Дробные числа
-                result.text = String(".");
-            }
-            
             operation = sender.tag
             mathSign = true;
         }
@@ -63,8 +61,6 @@ class ViewController: UIViewController {
             else if operation == 14 {
                 result.text = String(firstNum + numberFromScreen)
             }
-            
-        
         }
         else if sender.tag == 10 {
             result.text = ""
@@ -74,5 +70,3 @@ class ViewController: UIViewController {
         }
     }
 }
-
-
